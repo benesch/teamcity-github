@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:schemas-jetbrains-com:teamcity-plugin-v1-xml">
+  <info>
+    <name>github</name>
+    <display-name>GitHub Pull Request Linker</display-name>
+    <version>0.1</version>
+    <description>Links builds to GitHub pull requests</description>
+    <download-url>https://github.com/cockroachdb/teamcity-github</download-url>
+    <email>nikhil.benesch@gmail.com</email>
+    <vendor>
+      <name>Cockroach Labs</name>
+      <url>https://cockroachlabs.com</url>
+      <logo>https://www.cockroachlabs.com/images/CL_Logo_Horizontal.svg</logo>
+    </vendor>
+  </info>
+  <deployment use-separate-classloader="true" />
+</teamcity-plugin>
